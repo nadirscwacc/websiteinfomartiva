@@ -1,15 +1,89 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Mijn Website</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+<!DOCTYPE html> <!-- Dit definieert het document type en de versie van HTML -->
+<html lang="en"> <!-- Dit begint het HTML-document en geeft de taal aan  -->
+<head> <!-- Dit begint de sectie van het document die metadata bevat -->
+    <meta charset="UTF-8"> <!-- Dit geeft de karaktercodering voor het document aan  -->  
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Dit instelt de viewport voor responsief gedrag -->
+    <title>Informatica</title> <!-- Dit stelt de titel van het document in -->
+    <link rel="stylesheet" href="./style.css"> <!-- Dit linkt naar een externe CSS-stijlblad -->
 </head>
+<body> <!-- Dit begint het lichaam van het HTML-document -->
+    <img src="betjewolf1.jpg" alt="Beschrijving van de afbeelding" class="betjewolf"> <!-- Dit voegt een afbeelding toe met een beschrijving en klasse -->
+    <section class="landingPage" id="landingPage"> <!-- Dit creëert een sectie met een specifieke klasse en ID -->
+        <div class="container"> <!-- Dit creëert een container binnen de sectie -->
+            <header> <!-- Dit begint de koptekst van de sectie -->
+                <a href="#" class="logo">Betjewolfstraat</a> <!-- Dit voegt een logo toe met een link -->
+                <ul> <!-- Dit begint een ongeordende lijst -->
+                    <li><a href="#landingPage" class="active">Home</a></li> <!-- Dit voegt een actieve link naar de startpagina toe -->
+                    <li><a href="#winkels">Winkels</a></li> <!-- Dit voegt een link naar de winkels toe -->
+                    <li><a href="#overons">Over Ons</a></li> <!-- Dit voegt een link naar informatie over ons toe -->
+                    <li><a href="usabillity.html">Usability</a></li> <!-- Dit voegt een link naar de usability-pagina toe -->
+                </ul>
+            </header>
+            <div class="content"> <!-- Dit creëert een inhoudssectie binnen de container -->
+                <h2>Welkom op de website van Betjewolfstraat</h2> <!-- Dit voegt een welkomstbericht toe -->
+            </div>
 
-<body>
-  Mijn favoriete kleur is ...
+    </section>
+
+    <!-- Verdere secties en inhoud volgen op dezelfde manier -->
 </body>
+</html>
 
+    <section class="winkelsPage" id="winkels">
+        <h1>Winkels</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <h2>AH</h2>
+                    <h3><a href="https://www.ah.nl/winkel/1802/?ref=talkawalk12">AH</a></h3>
+                    <p></p>
+            
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h2>YK</h2>
+                    <h3><a href="https://www.instagram.com/kapsalon_yakamoz/?ref=talkawalk12">Yakamoz Kapper</a></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h2>BT</h2>
+                    <h3><a href="https://www.goudengids.nl/nl/bedrijf/Den+Haag/L200101800/Bagci+Telecom//?ref=talkawalk12">BAGCI Telefoon</a></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="overonsPage" id="overons">
+        <h1>Over Ons</h1>
+        <div class="overonsContent">
+            <p>De Betje Wolffstraat is een ontmoetingsplaats voor jong en oud met een sterke sociale bindende rol voor alle Moerwijkers.
+
+                In de Betje Wolffstraat zijn 35 winkels gevestigd met o.a. een apotheek, tandarts, fysiotherapeut, huisarts, kraamzorg en Vegro thuiszorg maar ook Albert Heijn, Wibra, Gall en Gall, Etos, Vegro en de Primera zijn vertegenwoordigd.</p>
+
+            <p>De Betje Wolff is uitstekend bereikbaar met openbaar vervoer en ook per auto. En, bijna uniek voor Den Haag, het parkeren is gratis.
+
+                Plan uw route per auto of OV</p>
+
+            <a href="#">Ga naar boven</a>
+        </div>
+    </section>
+
+
+    <footer>
+        <ul class="menu">
+            <li><a href="#landingPage">Home</a></li>
+            <li><a href="#winkels">Winkels</a></li>
+            <li><a href="#overons">Over Ons</a></li>
+            <li><a href="usabillity.html">Usability</a></li>
+        </ul>
+        <p>© 2024 Website Nadir Khayron</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 </html>
